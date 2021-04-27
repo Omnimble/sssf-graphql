@@ -1,0 +1,27 @@
+{
+    "type": "module",
+    "name": "sssf-graphql",
+    "version": "1.0.0",
+    "description": "week3 tasks for sssf",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Omnimble/sssf-graphql.git"
+    },
+    "author": "Toni Soini",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Omnimble/sssf-graphql/issues"
+    },
+    "homepage": "https://github.com/Omnimble/sssf-graphql#readme",
+    "dependencies": {
+        "apollo-server-express": "^2.23.0",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "mongoose": "^5.12.5"
+    }
+}
